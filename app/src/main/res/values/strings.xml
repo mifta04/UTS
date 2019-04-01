@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Tugas 3</string>
+    <string name="my_profil">My Profil</string>
+    <string name="telepon_saya">Telepon Saya</string>
+    <string name="miftahudin">Miftahudin</string>
+    <string name="_16670091">16670091</string>
+    <string name="informatika_6a">Informatika 6A</string>
+    <string name="capture_picture">Capture Picture</string>
+    <string name="ambil_gambar">ambil gambar</string>
+    <string name="universitas_pgri_semarang">Universitas PGRI Semarang</string>
+    <string name="klik_disini">Klik disini</string>
+</resources>
