@@ -3,23 +3,22 @@
               xmlns:tools="http://schemas.android.com/tools"
               android:layout_width="match_parent"
               android:layout_height="match_parent"
-              android:background="@drawable/bg"
+              android:background="@drawable/pg"
               android:orientation="vertical"
               tools:context=".MoveWithDataActivity">
 
 
-
-    <Button android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="25dp"
-            android:id="@+id/btnCapture"
-            android:text="@string/klik_disini"
-            android:background="@color/blue"
-            android:textSize="20sp"
-            android:textColor="@android:color/white"/>
     <ImageView android:layout_width="match_parent"
                android:layout_height="300dp"
                android:layout_marginTop="50dp"
                android:id="@+id/iv"
                android:src="@android:drawable/stat_notify_error"/>
+    <Button android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:id="@+id/btnCapture"
+            android:text="@string/klik_disini"
+            android:background="#EBCFAA3C"
+            android:textSize="20sp"
+            android:textColor="@android:color/white"/>
 </LinearLayout>

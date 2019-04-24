@@ -5,24 +5,18 @@
               android:layout_height="match_parent"
               android:orientation="vertical"
               android:paddingBottom="@dimen/activity_vertical_margin"
-              android:background="@drawable/bg"
+              android:background="@drawable/pg"
               android:paddingLeft="@dimen/activity_horizontal_margin"
               android:paddingRight="@dimen/activity_horizontal_margin"
-              android:paddingTop="2dp">
-    <ImageView
-            android:layout_marginTop="2dp"
-            android:gravity="center"
-            android:textAlignment="center"
-            android:layout_width="325dp"
-            android:layout_height="200dp"
-            android:src="@drawable/upgris"/>
+              android:paddingTop="100dp">
+
     <Button
             android:id="@+id/btn_move_activity_data"
             android:layout_width="match_parent"
-            android:layout_marginTop="25dp"
+            android:layout_marginTop="20dp"
             android:layout_height="wrap_content"
             android:layout_marginBottom="@dimen/activity_vertical_margin"
-            android:background="@color/blue"
+            android:background="#EBCFAA3C"
             android:textColor="#ffffff"
             android:text="@string/ambil_gambar" />
 
@@ -31,7 +25,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="@dimen/activity_vertical_margin"
-            android:background="@color/blue"
+            android:background="#EBCFAA3C"
             android:textColor="#ffffff"
             android:text="@string/my_profil" />
 
@@ -40,7 +34,12 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="@dimen/activity_vertical_margin"
-            android:background="@color/blue"
+            android:background="#EBCFAA3C"
             android:textColor="#ffffff"
-            android:text="@string/telepon_saya" />
+            android:text="Login" />
+
+    <ImageView android:layout_width="match_parent"
+               android:layout_height="250dp"
+               android:layout_marginTop="0dp"
+               android:src="@drawable/prog"/>
 </LinearLayout>
